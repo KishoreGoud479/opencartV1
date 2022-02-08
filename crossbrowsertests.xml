@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OpenCart Test Suite" thread-count="2" parallel="tests">
+
+	<listeners>
+		<listener
+			class-name="utilities.ExtentReportManager" />
+	</listeners>
+	
+	<test name="ChromeTests">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+			<!-- Here specify tests which you would like to execute on chrome -->
+		</classes>
+	
+	</test>
+	
+	
+	<test name="EdgeTests">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+			<!-- Here specify tests which you would like to execute on Edge -->
+		</classes>
+	
+	</test>
+	
+	<test name="FirefoxTests">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+			<!-- Here specify tests which you would like to execute on firefox -->
+		</classes>
+	
+	</test>
+
+</suite>

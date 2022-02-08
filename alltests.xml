@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart Test Suite">
+
+	<listeners>
+		<listener
+			class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="OpenCart Tests">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+			<class name="testCases.TC_002_Login"/>
+			<class name="testCases.TC_003_LoginDDT"/>
+		</classes>
+	</test>
+	
+	<!-- Here you can specify multiple tests -->
+	
+</suite>

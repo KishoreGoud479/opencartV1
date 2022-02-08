@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCart Test Suite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="OpenCart Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_009_AddWishList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_AddWishList"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_009_AddWishList -->
+    </classes>
+  </test> <!-- OpenCart Tests(failed) -->
+</suite> <!-- Failed suite [OpenCart Test Suite] -->
