@@ -3,32 +3,29 @@ package testCases;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
-import pageObjects.HomePage;
-import pageObjects.SearchPage;
+import pageObjects.SearchProduct;
 import testBase.BaseClass;
 
 public class TC_005_SearchProduct extends BaseClass {
 	
 	@Test
-	public void  test_search() throws InterruptedException
+	public void  test_SearchProduct() throws InterruptedException
 	{
-	logger.info(" Starting TC_005_Search ");
+	logger.info(" Starting TC_005_SearchProduct ");
 	
 	try
 	{
-		
 	   driver.get(rd.getString("appURL"));
-	   HomePage hp=new HomePage(driver);
 	   logger.info("Home Page Displayed ");
 	
 	   driver.manage().window().maximize();
 	
-	    SearchPage sp=new SearchPage(driver);
-	
-	 //  sp.searchtxt("iPhoness");
-	    sp.searchtxt("iMac");
+	   SearchProduct sp=new SearchProduct(driver);
+	   
+	   sp.searchtxt("iPhoness");
+	    //sp.searchtxt("iMac");
 	    Thread.sleep(2000);
-	     logger.info("Enter any Product"); 
+	    logger.info("Enter any Product"); 
 	
 	    sp.searchbutton();
 	    Thread.sleep(1000);
@@ -38,15 +35,15 @@ public class TC_005_SearchProduct extends BaseClass {
 	    
 	    if(tarpage)
 	    {
-	    	logger.info("Search Failed ");
+	    	logger.info("Search Success ");
 			Assert.assertTrue(true);
 	    }
 	    
 	    else
 		{
-			logger.error("Search Success ");
-			captureScreen(driver, "test_search"); //Capturing screenshot
-			Assert.assertTrue(true);
+			logger.error("Search Failed ");
+			captureScreen(driver, "SearchProduct"); //Capturing screenshot
+			Assert.assertTrue(false);
 		}
 	}	
 	catch(Exception e)
@@ -55,7 +52,7 @@ public class TC_005_SearchProduct extends BaseClass {
 		Assert.fail();
 	}
 	
-	logger.info(" Finished TC_004Search ");
+	logger.info(" Finished TC_005SearchProduct ");
 	
 }
      }

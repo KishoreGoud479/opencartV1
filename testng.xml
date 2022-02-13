@@ -12,7 +12,8 @@
   <parameter name="browser" value="chrome"/>
   
     <classes>
-      <class name="testCases.TC_008_Addcart"/>
+    	<class name="testCases.TC_005_SearchProduct"/>
+    
       
     </classes>
   </test>

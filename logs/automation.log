@@ -466,3 +466,62 @@
 20:42:36.675 [main] INFO  testCases.TC_009_AddWishList - clicked on addwishlist
 20:42:37.912 [main] INFO  testCases.TC_009_AddWishList - WishList Success 
 20:42:37.915 [main] INFO  testCases.TC_009_AddWishList -  Finished TC_009_AddWishList 
+12:23:36.588 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+12:23:36.615 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+12:23:38.883 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+12:23:42.181 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+12:23:43.843 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+12:23:53.887 [main] FATAL testCases.TC_010_ShoppingCart - Soppingcart failed
+12:27:29.953 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+12:27:29.997 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+12:27:32.010 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+12:27:35.388 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+12:27:36.899 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+12:27:46.917 [main] FATAL testCases.TC_010_ShoppingCart - Soppingcart failed
+12:30:09.032 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+12:30:09.090 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+12:30:11.583 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+12:30:14.831 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+12:30:19.315 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+12:30:29.370 [main] FATAL testCases.TC_010_ShoppingCart - Soppingcart failed
+12:34:26.269 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+12:34:26.337 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+12:34:28.645 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+12:34:31.886 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+12:34:36.411 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+12:34:50.391 [main] FATAL testCases.TC_010_ShoppingCart - Soppingcart failed
+12:37:22.836 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+12:37:22.905 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+12:37:25.297 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+12:37:28.577 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+12:37:33.339 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+12:37:43.385 [main] FATAL testCases.TC_010_ShoppingCart - Soppingcart failed
+12:40:07.429 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+12:40:07.477 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+12:40:10.810 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+12:40:14.106 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+12:40:18.889 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+12:40:24.354 [main] INFO  testCases.TC_010_ShoppingCart - Added product into Addcart
+12:40:29.207 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on shoppingcart
+12:40:29.270 [main] INFO  testCases.TC_010_ShoppingCart - Shopping cart successfull
+12:40:29.273 [main] INFO  testCases.TC_010_ShoppingCart -  Finished TC_010_ShoppingCart
+13:07:53.786 [main] INFO  testCases.TC_005_SearchProduct - Launched Chrome Browser
+13:07:53.830 [main] INFO  testCases.TC_005_SearchProduct -  Starting TC_005_SearchProduct 
+13:07:55.864 [main] INFO  testCases.TC_005_SearchProduct - Home Page Displayed 
+13:07:58.170 [main] INFO  testCases.TC_005_SearchProduct - Enter any Product
+13:08:12.164 [main] ERROR testCases.TC_005_SearchProduct - Search Success 
+13:08:13.792 [main] INFO  testCases.TC_010_ShoppingCart - Launched Chrome Browser
+13:08:13.800 [main] INFO  testCases.TC_010_ShoppingCart - TC_010_Shoppingcart test case started
+13:08:16.232 [main] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed
+13:08:19.460 [main] INFO  testCases.TC_010_ShoppingCart - Searching product 
+13:08:24.147 [main] INFO  testCases.TC_010_ShoppingCart - click on Searching button
+13:08:30.902 [main] INFO  testCases.TC_010_ShoppingCart - Added product into Addcart
+13:08:35.717 [main] INFO  testCases.TC_010_ShoppingCart - Clicked on shoppingcart
+13:08:35.764 [main] INFO  testCases.TC_010_ShoppingCart - Shopping cart successfull
+13:08:35.764 [main] INFO  testCases.TC_010_ShoppingCart -  Finished TC_010_ShoppingCart
+13:13:36.062 [main] INFO  testCases.TC_005_SearchProduct - Launched Chrome Browser
+13:13:36.095 [main] INFO  testCases.TC_005_SearchProduct -  Starting TC_005_SearchProduct 
+13:13:38.644 [main] INFO  testCases.TC_005_SearchProduct - Home Page Displayed 
+13:13:40.961 [main] INFO  testCases.TC_005_SearchProduct - Enter any Product
+13:13:43.624 [main] INFO  testCases.TC_005_SearchProduct - Search Success 
+13:13:43.627 [main] INFO  testCases.TC_005_SearchProduct -  Finished TC_005SearchProduct 

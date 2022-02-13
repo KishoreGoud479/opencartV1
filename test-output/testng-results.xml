@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-05T20:42:25 IST" name="OpenCart Test Suite" finished-at="2022-02-05T20:42:38 IST" duration-ms="12464">
+  <suite started-at="2022-02-13T13:13:31 IST" name="Suite" finished-at="2022-02-13T13:13:43 IST" duration-ms="11988">
     <groups>
     </groups>
-    <test started-at="2022-02-05T20:42:25 IST" name="OpenCart Tests" finished-at="2022-02-05T20:42:38 IST" duration-ms="12464">
-      <class name="testCases.TC_009_AddWishList">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_AddWishList@537f60bf]" started-at="2022-02-05T20:42:26 IST" name="setup" finished-at="2022-02-05T20:42:30 IST" duration-ms="3795" status="PASS">
+    <test started-at="2022-02-13T13:13:31 IST" name="OpenCart Tests" finished-at="2022-02-13T13:13:43 IST" duration-ms="11988">
+      <class name="testCases.TC_005_SearchProduct">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_SearchProduct@45099dd3]" started-at="2022-02-13T13:13:32 IST" name="setup" finished-at="2022-02-13T13:13:36 IST" duration-ms="3574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_AddWishList()[pri:0, instance:testCases.TC_009_AddWishList@537f60bf]" started-at="2022-02-05T20:42:30 IST" name="test_AddWishList" finished-at="2022-02-05T20:42:37 IST" duration-ms="7783" status="PASS">
+        <test-method signature="test_SearchProduct()[pri:0, instance:testCases.TC_005_SearchProduct@45099dd3]" started-at="2022-02-13T13:13:36 IST" name="test_SearchProduct" finished-at="2022-02-13T13:13:43 IST" duration-ms="7536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_AddWishList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_009_AddWishList@537f60bf]" started-at="2022-02-05T20:42:37 IST" name="tearDown" finished-at="2022-02-05T20:42:38 IST" duration-ms="527" status="PASS">
+        </test-method> <!-- test_SearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_SearchProduct@45099dd3]" started-at="2022-02-13T13:13:43 IST" name="tearDown" finished-at="2022-02-13T13:13:43 IST" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_009_AddWishList -->
+      </class> <!-- testCases.TC_005_SearchProduct -->
     </test> <!-- OpenCart Tests -->
-  </suite> <!-- OpenCart Test Suite -->
+  </suite> <!-- Suite -->
 </testng-results>

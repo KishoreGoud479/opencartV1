@@ -34,12 +34,12 @@ public class BaseClass {
 	{
 		//Load config.properties file
 		rd=ResourceBundle.getBundle("config");
-		
+		 
 		//Logging
 		logger=LogManager.getLogger(this.getClass()); 
 		
 		if(br.equals("chrome"))
-		{
+		{ 
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			logger.info("Launched Chrome Browser");
