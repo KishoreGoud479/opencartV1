@@ -13,12 +13,11 @@
 			<class name="testCases.TC_001_AccountRegistration"/>
 			<!-- Here specify tests which you would like to execute on chrome -->
 		</classes>
-	
 	</test>
 	
 	
 	<test name="EdgeTests">
-	<parameter name="browser" value="firefox"/>
+	<parameter name="browser" value="Edge"/>
 		<classes>
 			<class name="testCases.TC_001_AccountRegistration"/>
 			<!-- Here specify tests which you would like to execute on Edge -->

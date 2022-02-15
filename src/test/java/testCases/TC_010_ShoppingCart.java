@@ -35,6 +35,7 @@ public class TC_010_ShoppingCart extends BaseClass{
 		cart.ClickonAddcart();
 		Thread.sleep(3000);
 		logger.info("Added product into Addcart");
+		
 		cart.clcikonShoppingcart();
 		Thread.sleep(3000);
 		logger.info("Clicked on shoppingcart");
