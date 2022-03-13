@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-15T16:00:45 IST" name="Open Cart Suite" finished-at="2022-02-15T16:03:08 IST" duration-ms="142213">
+  <suite started-at="2022-03-13T12:20:09 IST" name="Suite" finished-at="2022-03-13T12:20:40 IST" duration-ms="30578">
     <groups>
     </groups>
-    <test started-at="2022-02-15T16:00:45 IST" name="ChromeTests" finished-at="2022-02-15T16:01:55 IST" duration-ms="69176">
-      <class name="testCases.TC_011_Checkout">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_011_Checkout@1ffaf86]" started-at="2022-02-15T16:00:46 IST" name="setup" finished-at="2022-02-15T16:00:51 IST" duration-ms="4855" status="PASS">
+    <test started-at="2022-03-13T12:20:09 IST" name="OpenCart Tests" finished-at="2022-03-13T12:20:40 IST" duration-ms="30578">
+      <class name="testCases.TC_014_AdressBook">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_014_AdressBook@45099dd3]" started-at="2022-03-13T12:20:10 IST" name="setup" finished-at="2022-03-13T12:20:16 IST" duration-ms="6471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,124 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_TC_011_Checkout()[pri:0, instance:testCases.TC_011_Checkout@1ffaf86]" started-at="2022-02-15T16:00:51 IST" name="test_TC_011_Checkout" finished-at="2022-02-15T16:01:15 IST" duration-ms="24725" status="PASS">
+        <test-method signature="test_AdressBook()[pri:0, instance:testCases.TC_014_AdressBook@45099dd3]" started-at="2022-03-13T12:20:16 IST" name="test_AdressBook" finished-at="2022-03-13T12:20:39 IST" duration-ms="23159" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_TC_011_Checkout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_011_Checkout@1ffaf86]" started-at="2022-02-15T16:01:15 IST" name="tearDown" finished-at="2022-02-15T16:01:17 IST" duration-ms="1750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_011_Checkout -->
-      <class name="testCases.TC_012_Homepage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_Homepage@1a942c18]" started-at="2022-02-15T16:01:17 IST" name="setup" finished-at="2022-02-15T16:01:21 IST" duration-ms="3484" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_TC_012_Homepage()[pri:0, instance:testCases.TC_012_Homepage@1a942c18]" started-at="2022-02-15T16:01:21 IST" name="test_TC_012_Homepage" finished-at="2022-02-15T16:01:54 IST" duration-ms="33175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_012_Homepage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_012_Homepage@1a942c18]" started-at="2022-02-15T16:01:54 IST" name="tearDown" finished-at="2022-02-15T16:01:55 IST" duration-ms="718" status="PASS">
+        </test-method> <!-- test_AdressBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_014_AdressBook@45099dd3]" started-at="2022-03-13T12:20:39 IST" name="tearDown" finished-at="2022-03-13T12:20:40 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_012_Homepage -->
-    </test> <!-- ChromeTests -->
-    <test started-at="2022-02-15T16:00:45 IST" name="EdgeTest" finished-at="2022-02-15T16:02:18 IST" duration-ms="92873">
-      <class name="testCases.TC_011_Checkout">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_011_Checkout@235ecd9f]" started-at="2022-02-15T16:00:46 IST" name="setup" finished-at="2022-02-15T16:01:10 IST" duration-ms="24467" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_TC_011_Checkout()[pri:0, instance:testCases.TC_011_Checkout@235ecd9f]" started-at="2022-02-15T16:01:10 IST" name="test_TC_011_Checkout" finished-at="2022-02-15T16:01:39 IST" duration-ms="28574" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_011_Checkout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_011_Checkout@235ecd9f]" started-at="2022-02-15T16:01:39 IST" name="tearDown" finished-at="2022-02-15T16:01:39 IST" duration-ms="407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_011_Checkout -->
-      <class name="testCases.TC_012_Homepage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_Homepage@1ca3b418]" started-at="2022-02-15T16:01:39 IST" name="setup" finished-at="2022-02-15T16:01:42 IST" duration-ms="2509" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_TC_012_Homepage()[pri:0, instance:testCases.TC_012_Homepage@1ca3b418]" started-at="2022-02-15T16:01:42 IST" name="test_TC_012_Homepage" finished-at="2022-02-15T16:02:18 IST" duration-ms="36124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_012_Homepage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_012_Homepage@1ca3b418]" started-at="2022-02-15T16:02:18 IST" name="tearDown" finished-at="2022-02-15T16:02:18 IST" duration-ms="556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_012_Homepage -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2022-02-15T16:01:55 IST" name="FirfoxTest" finished-at="2022-02-15T16:03:08 IST" duration-ms="72582">
-      <class name="testCases.TC_011_Checkout">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_011_Checkout@7161d8d1]" started-at="2022-02-15T16:01:55 IST" name="setup" finished-at="2022-02-15T16:02:04 IST" duration-ms="9415" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_TC_011_Checkout()[pri:0, instance:testCases.TC_011_Checkout@7161d8d1]" started-at="2022-02-15T16:02:04 IST" name="test_TC_011_Checkout" finished-at="2022-02-15T16:02:29 IST" duration-ms="24967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_011_Checkout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_011_Checkout@7161d8d1]" started-at="2022-02-15T16:02:29 IST" name="tearDown" finished-at="2022-02-15T16:02:31 IST" duration-ms="1509" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_011_Checkout -->
-      <class name="testCases.TC_012_Homepage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_Homepage@74e28667]" started-at="2022-02-15T16:02:31 IST" name="setup" finished-at="2022-02-15T16:02:37 IST" duration-ms="5969" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_TC_012_Homepage()[pri:0, instance:testCases.TC_012_Homepage@74e28667]" started-at="2022-02-15T16:02:37 IST" name="test_TC_012_Homepage" finished-at="2022-02-15T16:03:06 IST" duration-ms="29225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_012_Homepage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_012_Homepage@74e28667]" started-at="2022-02-15T16:03:06 IST" name="tearDown" finished-at="2022-02-15T16:03:08 IST" duration-ms="1485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_012_Homepage -->
-    </test> <!-- FirfoxTest -->
-  </suite> <!-- Open Cart Suite -->
+      </class> <!-- testCases.TC_014_AdressBook -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- Suite -->
 </testng-results>

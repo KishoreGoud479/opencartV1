@@ -10,3 +10,35 @@
 16:02:55.112 [TestNG-tests-1] INFO  testCases.TC_012_Homepage - Searching product
 16:03:06.660 [TestNG-tests-1] INFO  testCases.TC_012_Homepage - Homepage_02 successfull
 16:03:06.660 [TestNG-tests-1] FATAL testCases.TC_012_Homepage - TC_012_Homepage_02 test failed
+18:15:28.899 [main] INFO  testCases.TC_012_Homepage - Launched Chrome Browser
+18:15:29.062 [main] INFO  testCases.TC_012_Homepage - TC_012_Homepage started
+18:15:37.310 [main] INFO  testCases.TC_012_Homepage - Searching product
+18:15:50.095 [main] INFO  testCases.TC_012_Homepage - Searching product
+18:16:01.629 [main] INFO  testCases.TC_012_Homepage - Homepage_02 successfull
+18:16:01.629 [main] FATAL testCases.TC_012_Homepage - TC_012_Homepage_02 test failed
+09:05:32.854 [main] INFO  testCases.TC_013_MyAccount - Launched Chrome Browser
+09:05:32.898 [main] INFO  testCases.TC_013_MyAccount -  Starting TC_013_MyAccount 
+09:05:34.490 [main] INFO  testCases.TC_013_MyAccount - Home Page Displayed 
+09:05:35.083 [main] INFO  testCases.TC_013_MyAccount - Clicked on My Account 
+09:05:36.415 [main] INFO  testCases.TC_013_MyAccount - Clicked on Login 
+09:05:36.528 [main] INFO  testCases.TC_013_MyAccount - Provided Email 
+09:05:36.610 [main] INFO  testCases.TC_013_MyAccount - Provided Password 
+09:05:39.027 [main] INFO  testCases.TC_013_MyAccount - Clicked on Login
+09:05:42.109 [main] INFO  testCases.TC_013_MyAccount - Click on MyAccount
+09:05:43.528 [main] INFO  testCases.TC_013_MyAccount - Click on OrderHistory 
+09:05:46.576 [main] INFO  testCases.TC_013_MyAccount - Click on MyAccount
+09:05:51.793 [main] INFO  testCases.TC_013_MyAccount - Click on LogOut
+09:05:53.091 [main] INFO  testCases.TC_013_MyAccount - Click on SiteMap Link
+09:05:56.093 [main] INFO  testCases.TC_013_MyAccount - Finished TC_013_MyAccount
+12:20:16.618 [main] INFO  testCases.TC_014_AdressBook - Launched Chrome Browser
+12:20:16.788 [main] INFO  testCases.TC_014_AdressBook - Started TC_014_AdressBook
+12:20:21.077 [main] INFO  testCases.TC_014_AdressBook - Home Page Displayed 
+12:20:21.374 [main] INFO  testCases.TC_014_AdressBook - Clicked on My Account 
+12:20:22.694 [main] INFO  testCases.TC_014_AdressBook - Clicked on Login 
+12:20:22.820 [main] INFO  testCases.TC_014_AdressBook - Provided Email 
+12:20:22.899 [main] INFO  testCases.TC_014_AdressBook - Provided Password 
+12:20:26.269 [main] INFO  testCases.TC_014_AdressBook - Clicked on Login
+12:20:30.599 [main] INFO  testCases.TC_014_AdressBook - click on AddressBook
+12:20:35.625 [main] INFO  testCases.TC_014_AdressBook - click on new AddressBook
+12:20:36.941 [main] INFO  testCases.TC_014_AdressBook - Click on Back Button
+12:20:39.942 [main] INFO  testCases.TC_014_AdressBook - Finished TC_015_AddressBook

@@ -72,9 +72,5 @@ public class Homepage_02 {
 		{
 			return(false);
 		}
-	}
-
-
-	
-	
+	}	
 }
