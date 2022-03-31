@@ -42,3 +42,12 @@
 12:20:35.625 [main] INFO  testCases.TC_014_AdressBook - click on new AddressBook
 12:20:36.941 [main] INFO  testCases.TC_014_AdressBook - Click on Back Button
 12:20:39.942 [main] INFO  testCases.TC_014_AdressBook - Finished TC_015_AddressBook
+10:12:19.582 [main] INFO  testCases.TC_015_OrderHistory - Launched Chrome Browser
+10:12:19.721 [main] INFO  testCases.TC_015_OrderHistory - TC_015 testcase started
+10:12:21.850 [main] INFO  testCases.TC_015_OrderHistory - Clicked on My Account 
+10:12:23.305 [main] INFO  testCases.TC_015_OrderHistory - Clicked on Login 
+10:12:23.475 [main] INFO  testCases.TC_015_OrderHistory - Provided Email 
+10:12:23.572 [main] INFO  testCases.TC_015_OrderHistory - Provided Password 
+10:12:27.081 [main] INFO  testCases.TC_015_OrderHistory - Clicked on Login
+10:12:31.634 [main] INFO  testCases.TC_015_OrderHistory - Clicked on Order History
+10:12:34.636 [main] INFO  testCases.TC_015_OrderHistory - Finished TC_016_OrderHistory

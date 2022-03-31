@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite">
+<suite name="Suite" thread-count="2">
 	<listeners>
 		<listener
 			class-name="utilities.ExtentReportManager" /> 
@@ -12,7 +12,7 @@
   <parameter name="browser" value="chrome"/>
   
     <classes>
-    	<class name="testCases.TC_014_AdressBook"/>
+    	<class name="testCases.TC_015_OrderHistory"/>
       
     </classes>
   </test>

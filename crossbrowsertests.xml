@@ -3,8 +3,7 @@
 <suite name="OpenCart Test Suite" thread-count="2" parallel="tests">
 
 	<listeners>
-		<listener
-			class-name="utilities.ExtentReportManager" />
+		<listener class-name="utilities.ExtentReportManager" />
 	</listeners>
 	
 	<test name="ChromeTests">
